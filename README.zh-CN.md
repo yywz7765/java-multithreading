@@ -1,4 +1,4 @@
-**语言：** 简体中文（当前） | [English](README.en.md)
+**语言：** 简体中文 | [English](README.en.md)
 
 # Java 多线程笔记
 
@@ -8,19 +8,14 @@
 
 适合用于面试复习、知识梳理和并发编程快速入门。
 
-这是一个围绕 Java 并发与 `java.util.concurrent` 的学习型知识库。当前版本重点优化了可读性：首页负责导航，基础内容和专题内容拆分到独立文档，方便快速查阅和按主题复习。
+这个文件是中文镜像入口。如果你习惯从 `README.zh-CN.md` 进入仓库，可以继续使用这里；内容会和根 [README.md](README.md) 保持同一套中文导航思路。
 
 ## 从哪里开始
 
+- 中文首页：[README.md](README.md)
 - 英文首页：[README.en.md](README.en.md)
 - 文档索引：[docs/README.md](docs/README.md)
 - 多线程基础总览：[docs/Multithreading Basics.md](docs/Multithreading%20Basics.md)
-
-## 仓库适合谁
-
-- 准备 Java / 后端面试，想快速搭好并发知识框架的人
-- 想系统复习线程、锁、线程池和 JUC 工具的人
-- 需要一个轻量、可导航、可回顾的并发学习笔记仓库的人
 
 ## 内容地图
 
@@ -38,7 +33,7 @@
 1. 先看 [docs/Multithreading Basics.md](docs/Multithreading%20Basics.md)，建立整体框架。
 2. 再看 [docs/JUC.md](docs/JUC.md)，补齐线程状态与基础术语。
 3. 然后按专题阅读 [docs/BlockingQueue.md](docs/BlockingQueue.md)、[docs/Callable FutureTask.md](docs/Callable%20FutureTask.md)、[docs/ForkJoin.md](docs/ForkJoin.md)。
-4. 最后按需阅读 [docs/batchRedis.md](docs/batchRedis.md) 这种实践型辅助笔记。
+4. 最后按需阅读 [docs/batchRedis.md](docs/batchRedis.md)。
 
 ## 面试速查
 
@@ -53,26 +48,3 @@
 | `CountDownLatch` | 一个线程等多个线程 |
 | `CyclicBarrier` | 多个线程互相等待 |
 | `Semaphore` | 控制并发访问数量 |
-
-## 当前文档结构
-
-```text
-java-multithreading/
-|-- README.md
-|-- README.en.md
-|-- README.zh-CN.md
-`-- docs/
-    |-- README.md
-    |-- Multithreading Basics.md
-    |-- JUC.md
-    |-- BlockingQueue.md
-    |-- Callable FutureTask.md
-    |-- ForkJoin.md
-    `-- batchRedis.md
-```
-
-## 说明
-
-- 中文是主要阅读语言，英文入口主要用于导航和快速理解
-- 保留原有主题文件名，尽量减少历史链接失效
-- 这是一份学习笔记型仓库，目标是“清晰、可查、可复习”，不是完整教程
